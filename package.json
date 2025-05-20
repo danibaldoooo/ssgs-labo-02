@@ -1,12 +1,38 @@
 {
-  "name": "labo-string",
+  "name": "ssgs-labo-02",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Progetto per la manipolazione di stringhe",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "start": "node ./index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Daniel Baldoni matricola 5317864 <danielbaldo02@gmail.com>",
+  "license": "ISC",
+
+  "dependencies": {
+    "n":"^10.1.0",
+    "stable":"^0.1.8"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danibaldoooo/ssgs-labo-02.git"
+
+  },
+
+  "bugs": {
+    "url": "https://github.com/danibaldoooo/ssgs-labo-02/issues"
+  },
+
+  "homepage": "https://github.com/danibaldoooo/ssgs-labo-02/readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
+
+
