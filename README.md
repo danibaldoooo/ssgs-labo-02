@@ -21,9 +21,36 @@ Buona analisi e buon lavoro!
 * Troncamento di una stringa a una lunghezza massima specificata.
 * Conteggio delle occorrenze di ciascun carattere in una stringa.
 
-## Installazione e Avvio
+## Installazione 
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+- git clone https://github.com/danibaldoooo/ssgs-labo-02.git
+- cd ssgs-labo-02
+- npm install
+
+## Avvio
+Per avviare da riga di comando interattiva:
+- node index.js
+
+## Test
+- npm test
+
+## Itegrazione Codecov
+Questo progetto utilizza Codecov per l'analisi e la visualizzazione della code coverage. 
+
+Pipeline CI/CD con GitHub Actions
+Il progetto è configurato con una pipeline di integrazione continua utilizzando GitHub Actions:
+
+Trigger: La pipeline viene eseguita automaticamente ad ogni push e pull request verso il main 
+Passaggi principali:
+Setup dell'ambiente Node.js
+Installazione delle dipendenze
+Esecuzione dei test con generazione del report di coverage
+Upload dei risultati di coverage a Codecov
+Puoi visualizzare i dettagli della configurazione nel file .github/workflows/do-tests.yml.
+
+Badge di Stato
+CI Tests: Mostra lo stato dell'ultima esecuzione della pipeline di test (passa/fallisce)
+Codecov: Mostra la percentuale attuale di code coverage del progetto
 
 ---
 
