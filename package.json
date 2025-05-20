@@ -11,10 +11,7 @@
   "author": "Daniel Baldoni matricola 5317864 <danielbaldo02@gmail.com>",
   "license": "ISC",
 
-  "dependencies": {
-    "n":"^10.1.0",
-    "stable":"^0.1.8"
-  },
+  
   "devDependencies": {
     "jest": "^29.7.0"
   },
